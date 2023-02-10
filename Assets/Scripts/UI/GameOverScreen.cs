@@ -11,6 +11,7 @@ public class GameOverScreen : GameScreen
     {
         CanvasGroup.alpha = 0;
         Button.interactable = false;
+        CanvasGroup.blocksRaycasts = false;
 
     }
 
@@ -18,6 +19,7 @@ public class GameOverScreen : GameScreen
     {
         CanvasGroup.alpha = 1;
         Button.interactable = true;
+        CanvasGroup.blocksRaycasts = true;
     }
 
     protected override void OnButtonClick()

@@ -14,6 +14,7 @@ public class PipeGenerator : ObjectPool
     private void Start()
     {
         Initialize(_template);
+        _elapsedTime = _secondsBetweenSpawn;
     }
 
     private void Update()
