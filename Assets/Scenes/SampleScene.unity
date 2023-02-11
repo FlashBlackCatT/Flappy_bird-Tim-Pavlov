@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 1196323841}
-  _capacity: 15
+  _capacity: 5
   _template: {fileID: 2243678693374133768, guid: 4c60e5161ca8aaa44977fc89df450ff3, type: 3}
   _secondsBetweenSpawn: 3
   _maxSpawnPositionY: 4.15
